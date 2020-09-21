@@ -1,0 +1,12 @@
+.leftsidebar > #notice{
+    animation: 5s infinite  slidein;
+    
+}
+@keyframes slidein {
+    from{
+        margin-left: 200px;
+    }
+    to{
+        margin-left: -300px;
+    }
+}
